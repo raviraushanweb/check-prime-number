@@ -1,0 +1,39 @@
+# macOS specific files
+.DS_Store
+
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Compiled output
+/dist
+
+# TypeScript cache
+/.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# Editor-specific files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+/coverage
+
+# Dependency directories
+/jest-puppeteer
+/puppeteer
+
+# Build output of npm/yarn
+/build

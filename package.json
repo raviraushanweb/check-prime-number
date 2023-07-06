@@ -1,0 +1,37 @@
+{
+  "name": "check-prime-number",
+  "version": "1.0.1",
+  "description": "an utility to check if the given number is prime or not",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "server": "nodemon --exec ts-node src/index.ts",
+    "dev": "npm run server",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviraushanweb/check-prime-number.git"
+  },
+  "author": "Ravi Raushan <raviraushanweb@gmail.com>",
+  "keywords": ["is prime", "is prime number", "prime number", "prime number check", "prime", "check prime number"],
+  "bugs": {
+    "url": "https://github.com/raviraushanweb/check-prime-number/issues"
+  },
+  "homepage": "https://github.com/raviraushanweb/check-prime-number#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
