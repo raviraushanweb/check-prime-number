@@ -2,7 +2,7 @@
     "compilerOptions": {
         "noUnusedLocals": false,
         "noUnusedParameters": false,
-        "target": "es5",
+        "target": "ES2020",
         "module": "commonjs",
         "outDir": "./dist",
         "rootDir": "./src",
